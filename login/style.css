@@ -1,0 +1,90 @@
+body{
+    background-image: url('img/fundo-oficial.jpg'); /* Substitua 'caminho-da-sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento body */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+@font-face {
+    font-family: Inclusive;
+    src: url(font/InclusiveSans-Regular.ttf);
+}
+@font-face {
+    font-family: lele;
+    src: url(font/Raleway-VariableFont_wght.ttf);
+}
+.form{
+    width: 800px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.429);
+    margin-top: 60px;
+    border-radius: 17px ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.545);
+    border: 2px;
+   
+}
+
+
+h2{
+    font-family: lele;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+input{
+    margin-top: 30px;
+    margin-left: 240px;
+    border-radius: 12px;
+    width: 290px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    text-align: center;
+}   
+
+
+
+.Mensagem{
+    text-align: center;
+    font-family: lele;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #444141;
+    border-radius: 9px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+   }
+   
+   button:hover {
+    background-image: linear-gradient(90deg, #e5b03d 0%, #d86a32 50%, #9b2449 75%, #df3889 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
+   
+   @keyframes slidernbw {
+    to {
+     background-position: 20vw;
+    }
+   }
+
+
+
+   
