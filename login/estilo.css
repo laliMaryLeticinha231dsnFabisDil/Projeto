@@ -11,15 +11,14 @@
 body{
   background: #6a7474;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #e6d6b6, #374444);  /* Chrome 10-25, Safari 5.1-6 */
-
-
-
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+
+/* editando o container */
 .titulo{
   margin-right: 20px;
   font-family: Inclusive;
@@ -33,7 +32,9 @@ background: -webkit-linear-gradient(to bottom, #e6d6b6, #374444);  /* Chrome 10-
   margin-top: 10px;
 }
 
-.quadrado{
+
+/* colocando outro quadrado no designer com foto */
+.quadrado{    
   width: 400px;
   height: 600px;
   margin-top: -100px;
@@ -46,36 +47,36 @@ background: -webkit-linear-gradient(to bottom, #e6d6b6, #374444);  /* Chrome 10-
   color: white;
 }
 
-
-.l1{
+/* editando os input */
+.btn1{
   margin-left: 420px;
   margin-top: -460px;
 }
 
-.l2{
+.btn2{
   margin-left: 420px;
   margin-top: 30px;
 }
 
-.l3{
+.btn3{
   margin-left: 420px;
   margin-top: 30px;
 }
 
 
-#lo, #la{
+#botao-nome, #botao-sobrenome{
   margin-right: 40px;
 }
 
-#le, #li{
+#botao-email, #botao-telefone{
 margin-right: 40px;
 }
 
-#lu, #lt{
+#botao-senha, #botao-confirma{
 margin-right: 40px;
 
 }
-#lo, #la, #le, #li, #lu, #lt{
+#botao-nome, #botao-sobrenome, #botao-email, #botao-telefone, #botao-senha, #botao-confirma{
  background-color: #7b52b900;
  border: 0 none;
   width: 230px;

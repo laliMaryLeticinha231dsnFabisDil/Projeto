@@ -14,6 +14,10 @@ body{
     font-family: lele;
     src: url(font/Raleway-VariableFont_wght.ttf);
 }
+
+
+
+/* editando o form */
 .form{
     width: 800px;
     height: 500px;
@@ -47,17 +51,22 @@ input{
     text-align: center;
 }   
 
-
-
 .Mensagem{
     text-align: center;
     font-family: lele;
     margin-top: 30px;
-}
+} 
+/* fim */
 
+
+/* tirando o sublinhado dos botões */
 a{
     text-decoration: none;
 }
+/* fim */
+
+
+/* editando os botões */
 
 .button{
     margin-left: 340px;
@@ -88,6 +97,8 @@ button {
     }
    }
 
+
+   /* acrescentando os icones */
 
 #icone{
     margin-left:-290px ;
