@@ -18,7 +18,7 @@ form.addEventListener('submit', (event) =>{
  } else if (usuario === 'usuario' && senha === 'senha'){
     //verifica se as informações de login e senha estão corretas
     alert("Bem vindo!")
-    location.replace("/tarefa/index.html", "_self")
+    location.replace("/tarefa/index.html","_self")
 } else{
     //exibe uma mensagem de erro se as informações estiverem erradas
     alert("Usuário ou senha incorreta, tente novamente")
