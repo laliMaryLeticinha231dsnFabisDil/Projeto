@@ -1,12 +1,7 @@
 body{
-    /* background-image: url('img/fundo-oficial.jpg'); 
+    background-image: url('img/fundocerto.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-color: white; */
-    background: #6a7474;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #e6d6b6, #374444);  /* Chrome 10-25, Safari 5.1-6 */
-    
-   
     display: flex;
     justify-content: center;
 
@@ -22,7 +17,7 @@ body{
 .form{
     width: 800px;
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.429);
+    background-color: rgba(134, 128, 128, 0.568);
     margin-top: 60px;
     border-radius: 17px ;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.545);

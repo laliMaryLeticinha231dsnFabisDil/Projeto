@@ -1,0 +1,93 @@
+body{
+
+background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+@font-face {
+    font-family:Cutive ;
+    src: url(font/CutiveMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quick;
+    src: url(font/Quicksand-VariableFont_wght.ttf);
+}
+
+.container{
+    width: 700px;
+    height: 600px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.426);
+    text-align: center;
+}
+
+
+h1{
+font-family: Quick;
+font-size: 40px;
+margin-top: 40px;
+}
+
+#input{
+    margin-top: 100px;
+    width: 300px;
+    height: 20px;
+    border: 0 none;
+    outline: 0;
+  border-bottom: 2px solid black;
+
+}
+#lista{
+    font-family: Cutive;
+}
+
+#input, .btn{
+ margin-left: 200px;
+   display: flex;
+   margin-top: 80px;
+    
+}
+
+.btn{
+    margin-left: 280px;
+    margin-top: 40px;
+}
+
+
+/* Botão */
+.btn {
+    background-color: #b56680;
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #cc6892;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+   }
+   
+   .btn span:last-child {
+    display: none;
+   }
+   
+   .btn:hover {
+    transition: .4s;
+    border: 2px dashed #b56680;
+    background-color: #fff;
+    color: #b56680;
+   }
+   
+   .btn:active {
+    background-color: #87dbd0;
+   }
+   
+   
